@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.cart {
+    width: 20px;
+    height: 20px;
+}
+
+.r1 {
+    /* background-image: url('https://boldoutline.in/wp-content/uploads/2018/08/mens-fashion-cover.jpg'); */
+
+}
+
+/* confirm payment page */
+.payment img {
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+.div1 {
+    position: absolute;
+    top: 20px;
+    left: 40%;
+}
+
+.div1 input {
+    right: 10;
+}
+
+.div h1 {
+    left: 5;
+}
+
+.card {
+    box-shadow: 10px 10px 15px lightgrey
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.image img {
+    width: 100%;
+    display: block;
+}
+
+.whole {
+    width: 100%;
+    height: 100%;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.overlay{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    top:0;
+    justify-content:center ;
+    align-items: center;
+    left:0;
+}
+.contents{
+    margin-top: 360px;
+}
+.contents h2{
+    color: aqua;
+    font-size: 4rem;
+}
+.contents a:hover{
+background: white!important;
+opacity:.9;
+
+}
+.contents p{
+    color: white;
+}
+.nav-link:hover{
+    background: white;
+    color: black!important;
+}
